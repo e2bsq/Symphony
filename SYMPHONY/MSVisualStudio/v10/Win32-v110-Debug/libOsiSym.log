@@ -1,0 +1,21 @@
+﻿Build started 29/07/2015 12:12:09.
+     1>Project "C:\Users\basquiat\Documents\Toolboxes indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\libOsiSym.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\include /I..\..\src\OsiSym /I..\..\..\BuildTools\headers /I..\..\..\CoinUtils\inc /I..\..\..\CoinUtils\src /I..\..\..\Osi\src /I..\..\..\Osi\src\Osi /I..\..\..\Clp\src\OsiClp /I..\..\..\Cgl\src /I..\..\..\Cgl\src\CglClique /I..\..\..\Cgl\src\CglFlowCover /I..\..\..\Cgl\src\CglGomory /I..\..\..\Cgl\src\CglKnapsackCover /I..\..\..\Cgl\src\CglLandP /I..\..\..\Cgl\src\CglLiftAndProject /I..\..\..\Cgl\src\CglMixedIntegerRounding /I..\..\..\Cgl\src\CglOddHole /I..\..\..\Cgl\src\CglProbing /I..\..\..\Cgl\src\CglRedSplit /I..\..\..\Cgl\src\CglSimpleRounding /I..\..\..\Cgl\src\CglTwomir /I..\..\..\Clp\src /ZI /nologo /W3 /WX- /Od /Oy- /D SYMPHONY_BUILD /D WIN32 /D _DEBUG /D _LIB /D INTEL /D COMPILE_IN_CG /D COMPILE_IN_CP /D COMPILE_IN_LP /D COMPILE_IN_TM /D __OSI_CLP__ /D USE_CGL_CUTS /D _CRT_SECURE_NO_DEPRECATE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32-v110-Debug\\" /Fd"Win32-v110-Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\OsiSym\OsiSymSolverInterface.cpp ..\..\src\OsiSym\SymWarmStart.cpp
+         SymWarmStart.cpp
+         OsiSymSolverInterface.cpp
+     1>c:\users\basquiat\documents\toolboxes indiens\symphony-5.6\symphony\src\osisym\osisymsolverinterface.cpp(433): warning C4065: switch statement contains 'default' but no 'case' labels
+     1>c:\users\basquiat\documents\toolboxes indiens\symphony-5.6\symphony\src\osisym\osisymsolverinterface.cpp(661): warning C4065: switch statement contains 'default' but no 'case' labels
+     1>c:\users\basquiat\documents\toolboxes indiens\symphony-5.6\symphony\src\osisym\osisymsolverinterface.cpp(1346): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\basquiat\documents\toolboxes indiens\symphony-5.6\symphony\src\osisym\osisymsolverinterface.cpp(1360): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\basquiat\documents\toolboxes indiens\symphony-5.6\symphony\src\osisym\osisymsolverinterface.cpp(1374): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\basquiat\Documents\Toolboxes indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\Win32-v110-Debug\libOsiSym.lib" /NOLOGO "Win32-v110-Debug\OsiSymSolverInterface.obj"
+         "Win32-v110-Debug\SymWarmStart.obj"
+         libOsiSym.vcxproj -> C:\Users\basquiat\Documents\Toolboxes indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\Win32-v110-Debug\libOsiSym.lib
+     1>Done Building Project "C:\Users\basquiat\Documents\Toolboxes indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\libOsiSym.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.70

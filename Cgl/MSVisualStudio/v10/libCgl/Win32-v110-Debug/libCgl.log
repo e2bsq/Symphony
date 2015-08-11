@@ -1,0 +1,90 @@
+﻿Build started 29/07/2015 12:12:11.
+     1>Project "C:\Users\basquiat\Documents\Toolboxes indiens\SYMPHONY-5.6\Cgl\MSVisualStudio\v10\libCgl\libCgl.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\src\CglDuplicateRow /I..\..\..\src\CglMixedIntegerRounding /I..\..\..\src\CglMixedIntegerRounding2 /I..\..\..\src\CglFlowCover /I..\..\..\src\CglClique /I..\..\..\src\CglOddHole /I..\..\..\src\CglKnapsackCover /I..\..\..\src\CglGomory /I..\..\..\src\CglPreProcess /I..\..\..\src\CglRedSplit /I..\..\..\src\CglResidualCapacity /I..\..\..\src\CglProbing /I..\..\..\src /I..\..\..\..\Osi\src\Osi /I..\..\..\..\Clp\src\OsiClp /I..\..\..\..\Clp\src /I..\..\..\..\CoinUtils\src /I..\..\..\..\BuildTools\headers /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _SCL_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32-v110-Debug\\" /Fd"Win32-v110-Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\CglAllDifferent\CglAllDifferent.cpp ..\..\..\src\CglClique\CglClique.cpp ..\..\..\src\CglClique\CglCliqueHelper.cpp ..\..\..\src\CglCutGenerator.cpp ..\..\..\src\CglDuplicateRow\CglDuplicateRow.cpp ..\..\..\src\CglFlowCover\CglFlowCover.cpp ..\..\..\src\CglGMI\CglGMI.cpp ..\..\..\src\CglGMI\CglGMIParam.cpp ..\..\..\src\CglGomory\CglGomory.cpp ..\..\..\src\CglKnapsackCover\CglKnapsackCover.cpp ..\..\..\src\CglLandP\CglLandP.cpp ..\..\..\src\CglLandP\CglLandPMessages.cpp ..\..\..\src\CglLandP\CglLandPSimplex.cpp ..\..\..\src\CglLandP\CglLandPTabRow.cpp ..\..\..\src\CglLandP\CglLandPUtils.cpp ..\..\..\src\CglLandP\CglLandPValidator.cpp ..\..\..\src\CglLiftAndProject\CglLiftAndProject.cpp ..\..\..\src\CglMessage.cpp ..\..\..\src\CglMixedIntegerRounding\CglMixedIntegerRounding.cpp ..\..\..\src\CglMixedIntegerRounding2\CglMixedIntegerRounding2.cpp ..\..\..\src\CglOddHole\CglOddHole.cpp ..\..\..\src\CglParam.cpp ..\..\..\src\CglPreProcess\CglPreProcess.cpp ..\..\..\src\CglProbing\CglProbing.cpp ..\..\..\src\CglRedSplit2\CglRedSplit2.cpp ..\..\..\src\CglRedSplit2\CglRedSplit2Param.cpp ..\..\..\src\CglRedSplit2\CglRedSplit2Test.cpp ..\..\..\src\CglRedSplit\CglRedSplit.cpp ..\..\..\src\CglRedSplit\CglRedSplitParam.cpp ..\..\..\src\CglResidualCapacity\CglResidualCapacity.cpp ..\..\..\src\CglResidualCapacity\CglResidualCapacityTest.cpp ..\..\..\src\CglSimpleRounding\CglSimpleRounding.cpp ..\..\..\src\CglStored.cpp ..\..\..\src\CglTreeInfo.cpp ..\..\..\src\CglTwomir\CglTwomir.cpp ..\..\..\src\CglZeroHalf\Cgl012cut.cpp ..\..\..\src\CglZeroHalf\CglZeroHalf.cpp ..\..\..\src\CglZeroHalf\CglZeroHalfTest.cpp
+         CglZeroHalfTest.cpp
+         CglZeroHalf.cpp
+         Cgl012cut.cpp
+         CglTwomir.cpp
+         CglTreeInfo.cpp
+         CglStored.cpp
+         CglSimpleRounding.cpp
+         CglResidualCapacityTest.cpp
+         CglResidualCapacity.cpp
+         CglRedSplitParam.cpp
+         CglRedSplit.cpp
+         CglRedSplit2Test.cpp
+         CglRedSplit2Param.cpp
+         CglRedSplit2.cpp
+         CglProbing.cpp
+         CglPreProcess.cpp
+         CglParam.cpp
+         CglOddHole.cpp
+         CglMixedIntegerRounding2.cpp
+         CglMixedIntegerRounding.cpp
+         Generating Code...
+         Compiling...
+         CglMessage.cpp
+         CglLiftAndProject.cpp
+         CglLandPValidator.cpp
+         CglLandPUtils.cpp
+         CglLandPTabRow.cpp
+         CglLandPSimplex.cpp
+         CglLandPMessages.cpp
+         CglLandP.cpp
+         CglKnapsackCover.cpp
+         CglGomory.cpp
+         CglGMIParam.cpp
+         CglGMI.cpp
+         CglFlowCover.cpp
+         CglDuplicateRow.cpp
+         CglCutGenerator.cpp
+         CglCliqueHelper.cpp
+         CglClique.cpp
+         CglAllDifferent.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\basquiat\Documents\Toolboxes indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\Win32-v110-Debug\libCgl.lib" /NOLOGO "Win32-v110-Debug\CglAllDifferent.obj"
+         "Win32-v110-Debug\CglClique.obj"
+         "Win32-v110-Debug\CglCliqueHelper.obj"
+         "Win32-v110-Debug\CglCutGenerator.obj"
+         "Win32-v110-Debug\CglDuplicateRow.obj"
+         "Win32-v110-Debug\CglFlowCover.obj"
+         "Win32-v110-Debug\CglGMI.obj"
+         "Win32-v110-Debug\CglGMIParam.obj"
+         "Win32-v110-Debug\CglGomory.obj"
+         "Win32-v110-Debug\CglKnapsackCover.obj"
+         "Win32-v110-Debug\CglLandP.obj"
+         "Win32-v110-Debug\CglLandPMessages.obj"
+         "Win32-v110-Debug\CglLandPSimplex.obj"
+         "Win32-v110-Debug\CglLandPTabRow.obj"
+         "Win32-v110-Debug\CglLandPUtils.obj"
+         "Win32-v110-Debug\CglLandPValidator.obj"
+         "Win32-v110-Debug\CglLiftAndProject.obj"
+         "Win32-v110-Debug\CglMessage.obj"
+         "Win32-v110-Debug\CglMixedIntegerRounding.obj"
+         "Win32-v110-Debug\CglMixedIntegerRounding2.obj"
+         "Win32-v110-Debug\CglOddHole.obj"
+         "Win32-v110-Debug\CglParam.obj"
+         "Win32-v110-Debug\CglPreProcess.obj"
+         "Win32-v110-Debug\CglProbing.obj"
+         "Win32-v110-Debug\CglRedSplit2.obj"
+         "Win32-v110-Debug\CglRedSplit2Param.obj"
+         "Win32-v110-Debug\CglRedSplit2Test.obj"
+         "Win32-v110-Debug\CglRedSplit.obj"
+         "Win32-v110-Debug\CglRedSplitParam.obj"
+         "Win32-v110-Debug\CglResidualCapacity.obj"
+         "Win32-v110-Debug\CglResidualCapacityTest.obj"
+         "Win32-v110-Debug\CglSimpleRounding.obj"
+         "Win32-v110-Debug\CglStored.obj"
+         "Win32-v110-Debug\CglTreeInfo.obj"
+         "Win32-v110-Debug\CglTwomir.obj"
+         "Win32-v110-Debug\Cgl012cut.obj"
+         "Win32-v110-Debug\CglZeroHalf.obj"
+         "Win32-v110-Debug\CglZeroHalfTest.obj"
+         libCgl.vcxproj -> C:\Users\basquiat\Documents\Toolboxes indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\Win32-v110-Debug\libCgl.lib
+     1>Done Building Project "C:\Users\basquiat\Documents\Toolboxes indiens\SYMPHONY-5.6\Cgl\MSVisualStudio\v10\libCgl\libCgl.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:32.17

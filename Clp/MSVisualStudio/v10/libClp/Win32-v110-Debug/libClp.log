@@ -1,0 +1,121 @@
+﻿Build started 29/07/2015 12:12:18.
+     1>Project "C:\Users\basquiat\Documents\Toolboxes indiens\SYMPHONY-5.6\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj" on node 3 (Build target(s)).
+       Project file contains ToolsVersion="1.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\..\CoinUtils\src /I..\..\..\..\BuildTools\headers /Zi /nologo /W3 /WX- /Od /Oy- /D CLP_BUILD /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32-v110-Debug\\" /Fd"Win32-v110-Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\Clp_C_Interface.cpp ..\..\..\src\ClpCholeskyBase.cpp ..\..\..\src\ClpCholeskyDense.cpp ..\..\..\src\ClpConstraint.cpp ..\..\..\src\ClpConstraintLinear.cpp ..\..\..\src\ClpConstraintQuadratic.cpp ..\..\..\src\ClpDualRowDantzig.cpp ..\..\..\src\ClpDualRowPivot.cpp ..\..\..\src\ClpDualRowSteepest.cpp ..\..\..\src\ClpDummyMatrix.cpp ..\..\..\src\ClpDynamicExampleMatrix.cpp ..\..\..\src\ClpDynamicMatrix.cpp ..\..\..\src\ClpEventHandler.cpp ..\..\..\src\ClpFactorization.cpp ..\..\..\src\ClpGubDynamicMatrix.cpp ..\..\..\src\ClpGubMatrix.cpp ..\..\..\src\ClpHelperFunctions.cpp ..\..\..\src\ClpInterior.cpp ..\..\..\src\ClpLinearObjective.cpp ..\..\..\src\ClpLsqr.cpp ..\..\..\src\ClpMatrixBase.cpp ..\..\..\src\ClpMessage.cpp ..\..\..\src\ClpModel.cpp ..\..\..\src\ClpNetworkBasis.cpp ..\..\..\src\ClpNetworkMatrix.cpp ..\..\..\src\ClpNode.cpp ..\..\..\src\ClpNonLinearCost.cpp ..\..\..\src\ClpObjective.cpp ..\..\..\src\ClpPackedMatrix.cpp ..\..\..\src\ClpPdco.cpp ..\..\..\src\ClpPdcoBase.cpp ..\..\..\src\ClpPlusMinusOneMatrix.cpp ..\..\..\src\ClpPredictorCorrector.cpp ..\..\..\src\ClpPresolve.cpp ..\..\..\src\ClpPrimalColumnDantzig.cpp ..\..\..\src\ClpPrimalColumnPivot.cpp ..\..\..\src\ClpPrimalColumnSteepest.cpp ..\..\..\src\ClpQuadraticObjective.cpp ..\..\..\src\ClpSimplex.cpp ..\..\..\src\ClpSimplexDual.cpp ..\..\..\src\ClpSimplexNonlinear.cpp ..\..\..\src\ClpSimplexOther.cpp ..\..\..\src\ClpSimplexPrimal.cpp ..\..\..\src\ClpSolve.cpp ..\..\..\src\Idiot.cpp ..\..\..\src\IdiSolve.cpp
+         IdiSolve.cpp
+         Idiot.cpp
+         ClpSolve.cpp
+         ClpSimplexPrimal.cpp
+         ClpSimplexOther.cpp
+         ClpSimplexNonlinear.cpp
+         ClpSimplexDual.cpp
+         ClpSimplex.cpp
+         ClpQuadraticObjective.cpp
+         ClpPrimalColumnSteepest.cpp
+         ClpPrimalColumnPivot.cpp
+         ClpPrimalColumnDantzig.cpp
+         ClpPresolve.cpp
+         ClpPredictorCorrector.cpp
+         ClpPlusMinusOneMatrix.cpp
+         ClpPdcoBase.cpp
+         ClpPdco.cpp
+     1>..\..\..\src\ClpPdco.cpp(632): warning C4800: 'double' : forcing value to bool 'true' or 'false' (performance warning)
+         ClpPackedMatrix.cpp
+         ClpObjective.cpp
+         ClpNonLinearCost.cpp
+         Generating Code...
+         Compiling...
+         ClpNode.cpp
+         ClpNetworkMatrix.cpp
+         ClpNetworkBasis.cpp
+         ClpModel.cpp
+         ClpMessage.cpp
+         ClpMatrixBase.cpp
+         ClpLsqr.cpp
+         ClpLinearObjective.cpp
+         ClpInterior.cpp
+         ClpHelperFunctions.cpp
+         ClpGubMatrix.cpp
+         ClpGubDynamicMatrix.cpp
+         ClpFactorization.cpp
+         ClpEventHandler.cpp
+         ClpDynamicMatrix.cpp
+         ClpDynamicExampleMatrix.cpp
+         ClpDummyMatrix.cpp
+         ClpDualRowSteepest.cpp
+         ClpDualRowPivot.cpp
+         ClpDualRowDantzig.cpp
+         Generating Code...
+         Compiling...
+         ClpConstraintQuadratic.cpp
+         ClpConstraintLinear.cpp
+         ClpConstraint.cpp
+         ClpCholeskyDense.cpp
+         ClpCholeskyBase.cpp
+         Clp_C_Interface.cpp
+     1>..\..\..\src\Clp_C_Interface.cpp(1308): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\..\src\Clp_C_Interface.cpp(1312): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\..\src\Clp_C_Interface.cpp(1315): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\..\src\Clp_C_Interface.cpp(1318): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\..\src\Clp_C_Interface.cpp(1321): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\..\src\Clp_C_Interface.cpp(1324): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\..\src\Clp_C_Interface.cpp(1327): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\..\src\Clp_C_Interface.cpp(1330): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\..\src\Clp_C_Interface.cpp(1333): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\..\src\Clp_C_Interface.cpp(1336): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\..\src\Clp_C_Interface.cpp(1339): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\basquiat\Documents\Toolboxes indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\Win32-v110-Debug\libClp.lib" /NOLOGO "Win32-v110-Debug\Clp_C_Interface.obj"
+         "Win32-v110-Debug\ClpCholeskyBase.obj"
+         "Win32-v110-Debug\ClpCholeskyDense.obj"
+         "Win32-v110-Debug\ClpConstraint.obj"
+         "Win32-v110-Debug\ClpConstraintLinear.obj"
+         "Win32-v110-Debug\ClpConstraintQuadratic.obj"
+         "Win32-v110-Debug\ClpDualRowDantzig.obj"
+         "Win32-v110-Debug\ClpDualRowPivot.obj"
+         "Win32-v110-Debug\ClpDualRowSteepest.obj"
+         "Win32-v110-Debug\ClpDummyMatrix.obj"
+         "Win32-v110-Debug\ClpDynamicExampleMatrix.obj"
+         "Win32-v110-Debug\ClpDynamicMatrix.obj"
+         "Win32-v110-Debug\ClpEventHandler.obj"
+         "Win32-v110-Debug\ClpFactorization.obj"
+         "Win32-v110-Debug\ClpGubDynamicMatrix.obj"
+         "Win32-v110-Debug\ClpGubMatrix.obj"
+         "Win32-v110-Debug\ClpHelperFunctions.obj"
+         "Win32-v110-Debug\ClpInterior.obj"
+         "Win32-v110-Debug\ClpLinearObjective.obj"
+         "Win32-v110-Debug\ClpLsqr.obj"
+         "Win32-v110-Debug\ClpMatrixBase.obj"
+         "Win32-v110-Debug\ClpMessage.obj"
+         "Win32-v110-Debug\ClpModel.obj"
+         "Win32-v110-Debug\ClpNetworkBasis.obj"
+         "Win32-v110-Debug\ClpNetworkMatrix.obj"
+         "Win32-v110-Debug\ClpNode.obj"
+         "Win32-v110-Debug\ClpNonLinearCost.obj"
+         "Win32-v110-Debug\ClpObjective.obj"
+         "Win32-v110-Debug\ClpPackedMatrix.obj"
+         "Win32-v110-Debug\ClpPdco.obj"
+         "Win32-v110-Debug\ClpPdcoBase.obj"
+         "Win32-v110-Debug\ClpPlusMinusOneMatrix.obj"
+         "Win32-v110-Debug\ClpPredictorCorrector.obj"
+         "Win32-v110-Debug\ClpPresolve.obj"
+         "Win32-v110-Debug\ClpPrimalColumnDantzig.obj"
+         "Win32-v110-Debug\ClpPrimalColumnPivot.obj"
+         "Win32-v110-Debug\ClpPrimalColumnSteepest.obj"
+         "Win32-v110-Debug\ClpQuadraticObjective.obj"
+         "Win32-v110-Debug\ClpSimplex.obj"
+         "Win32-v110-Debug\ClpSimplexDual.obj"
+         "Win32-v110-Debug\ClpSimplexNonlinear.obj"
+         "Win32-v110-Debug\ClpSimplexOther.obj"
+         "Win32-v110-Debug\ClpSimplexPrimal.obj"
+         "Win32-v110-Debug\ClpSolve.obj"
+         "Win32-v110-Debug\Idiot.obj"
+         "Win32-v110-Debug\IdiSolve.obj"
+         libClp.vcxproj -> C:\Users\basquiat\Documents\Toolboxes indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\Win32-v110-Debug\libClp.lib
+     1>Done Building Project "C:\Users\basquiat\Documents\Toolboxes indiens\SYMPHONY-5.6\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:32.82

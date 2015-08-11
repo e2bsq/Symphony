@@ -1,0 +1,16 @@
+﻿Build started 29/07/2015 12:12:51.
+     1>Project "C:\Users\basquiat\Documents\Toolboxes indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\symphony.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\Osi\src\Osi /I..\..\..\Clp\src\OsiClp /I..\..\..\Clp\src /I..\..\..\CoinUtils\src /I..\..\..\Cgl\src /I..\..\..\Cgl\src\CglLiftAndProject /I..\..\..\Cgl\src\CglLandP /I..\..\..\Cgl\src\CglFlowCover /I..\..\..\Cgl\src\CglMixedIntegerRounding /I..\..\..\Cgl\src\CglClique /I..\..\..\Cgl\src\CglOddHole /I..\..\..\Cgl\src\CglKnapsackCover /I..\..\..\Cgl\src\CglGomory /I..\..\..\Cgl\src\CglSimpleRounding /I..\..\..\Cgl\src\CglProbing /I..\..\..\Cgl\src\CglRedSplit /I..\..\..\Cgl\src\CglTwomir /I..\..\..\BuildTools\headers /I..\..\include /Zi /nologo /W3 /WX- /Od /Oy- /D SYMPHONY_BUILD /D WIN32 /D _DEBUG /D _CONSOLE /D INTEL /D COMPILE_IN_CG /D COMPILE_IN_CP /D COMPILE_IN_LP /D COMPILE_IN_TM /D __OSI_CLP__ /D USE_CGL_CUTS /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0600 /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32-v110-Debug\\" /Fd"Win32-v110-Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\Master\main.c
+         main.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\basquiat\Documents\Toolboxes indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\Win32-v110-Debug\symphony.exe" /NOLOGO /LIBPATH:"C:\Users\basquiat\Documents\Toolboxes indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\Win32-v110-Debug\\" libOsi.lib libClp.lib libCgl.lib libCoinUtils.lib libOsiClp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:odbc32.lib /NODEFAULTLIB:odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\basquiat\Documents\Toolboxes indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\Win32-v110-Debug\symphony.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /IMPLIB:"C:\Users\basquiat\Documents\Toolboxes indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\Win32-v110-Debug\symphony.lib" /MACHINE:X86 /SAFESEH "Win32-v110-Debug\main.obj"
+         "C:\Users\basquiat\Documents\Toolboxes indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\Win32-v110-Debug\libSymphony.lib"
+     1>libSymphony.lib(master.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     1>main.obj : warning LNK4099: PDB 'vc110.pdb' was not found with 'main.obj' or at 'C:\Users\basquiat\Documents\Toolboxes indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\Win32-v110-Debug\vc110.pdb'; linking object as if no debug info
+         symphony.vcxproj -> C:\Users\basquiat\Documents\Toolboxes indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\Win32-v110-Debug\symphony.exe
+     1>Done Building Project "C:\Users\basquiat\Documents\Toolboxes indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\symphony.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.71

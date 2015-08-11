@@ -1,0 +1,99 @@
+﻿Build started 31/07/2015 15:22:26.
+     1>Project "C:\Users\basquiat\Documents\Toolboxes-indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\libSymphony.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I..\..\include /I..\..\..\BuildTools\headers /I..\..\..\CoinUtils\inc /I..\..\..\CoinUtils\src /I..\..\..\Osi\src\Osi /I..\..\..\Cgl\src /I..\..\..\Cgl\src\CglClique /I..\..\..\Cgl\src\CglFlowCover /I..\..\..\Cgl\src\CglGomory /I..\..\..\Cgl\src\CglKnapsackCover /I..\..\..\Cgl\src\CglLandP /I..\..\..\Cgl\src\CglLiftAndProject /I..\..\..\Cgl\src\CglMixedIntegerRounding /I..\..\..\Cgl\src\CglOddHole /I..\..\..\Cgl\src\CglProbing /I..\..\..\Cgl\src\CglRedSplit /I..\..\..\Cgl\src\CglSimpleRounding /I..\..\..\Cgl\src\CglTwomir /I..\..\..\Clp\src /I..\..\..\Clp\src\OsiClp /Zi /nologo /W3 /WX- /Od /D SYMPHONY_BUILD /D WIN32 /D _DEBUG /D _CONSOLE /D INTEL /D COMPILE_IN_CG /D COMPILE_IN_CP /D COMPILE_IN_LP /D COMPILE_IN_TM /D __OSI_CLP__ /D USE_CGL_CUTS /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0600 /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"x64-v110-Debug\\" /Fd"x64-v110-Debug\vc110.pdb" /Gd /TP /errorReport:prompt ..\..\src\Common\pack_array.c ..\..\src\Common\pack_cut.c ..\..\src\Common\proccomm.c ..\..\src\Common\sym_qsort.c ..\..\src\Common\timemeas.c ..\..\src\CutGen\cg_func.c ..\..\src\CutGen\cg_proccomm.c ..\..\src\CutGen\cg_wrapper.c ..\..\src\CutGen\cut_gen.c ..\..\src\CutPool\cp_func.c ..\..\src\CutPool\cp_proccomm.c ..\..\src\CutPool\cp_wrapper.c ..\..\src\CutPool\cut_pool.c ..\..\src\LP\lp.c ..\..\src\LP\lp_branch.c ..\..\src\LP\lp_free.c ..\..\src\LP\lp_genfunc.c ..\..\src\LP\lp_heuristics.c ..\..\src\LP\lp_proccomm.c ..\..\src\LP\lp_rowfunc.c ..\..\src\LP\lp_solver.c ..\..\src\LP\lp_sp.c ..\..\src\LP\lp_varfunc.c ..\..\src\LP\lp_wrapper.c ..\..\src\Master\master.c ..\..\src\Master\master_func.c ..\..\src\Master\master_io.c ..\..\src\Master\master_prep.c ..\..\src\Master\master_prep_base.c ..\..\src\Master\master_prep_sr.c ..\..\src\Master\master_wrapper.c ..\..\src\TreeManager\tm_func.c ..\..\src\TreeManager\tm_proccomm.c
+         tm_proccomm.c
+         tm_func.c
+     1>..\..\src\TreeManager\tm_func.c(439): warning C4081: expected 'identifier'; found 'string'
+     1>..\..\src\TreeManager\tm_func.c(444): warning C4081: expected 'identifier'; found 'string'
+     1>..\..\src\TreeManager\tm_func.c(449): warning C4081: expected 'identifier'; found 'string'
+     1>..\..\src\TreeManager\tm_func.c(454): warning C4081: expected 'identifier'; found 'string'
+     1>..\..\src\TreeManager\tm_func.c(458): warning C4081: expected 'identifier'; found 'string'
+     1>..\..\src\TreeManager\tm_func.c(464): warning C4081: expected 'identifier'; found 'string'
+     1>..\..\src\TreeManager\tm_func.c(467): warning C4081: expected 'identifier'; found 'string'
+     1>..\..\src\TreeManager\tm_func.c(514): warning C4081: expected 'identifier'; found 'string'
+     1>..\..\src\TreeManager\tm_func.c(525): warning C4081: expected 'identifier'; found 'string'
+     1>..\..\src\TreeManager\tm_func.c(591): warning C4081: expected 'identifier'; found 'string'
+     1>..\..\src\TreeManager\tm_func.c(1045): warning C4081: expected 'identifier'; found 'string'
+     1>..\..\src\TreeManager\tm_func.c(1050): warning C4081: expected 'identifier'; found 'string'
+     1>..\..\src\TreeManager\tm_func.c(1115): warning C4081: expected 'identifier'; found 'string'
+     1>..\..\src\TreeManager\tm_func.c(1123): warning C4081: expected 'identifier'; found 'string'
+         master_wrapper.c
+         master_prep_sr.c
+         master_prep_base.c
+         master_prep.c
+         master_io.c
+         master_func.c
+         master.c
+     1>..\..\src\Master\master.c(6578): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+         lp_wrapper.c
+         lp_varfunc.c
+         lp_sp.c
+         lp_solver.c
+         lp_rowfunc.c
+         lp_proccomm.c
+         lp_heuristics.c
+     1>..\..\src\LP\lp_heuristics.c(3992): warning C4138: '*/' found outside of comment
+         lp_genfunc.c
+     1>..\..\src\LP\lp_genfunc.c(191): warning C4081: expected 'identifier'; found 'string'
+     1>..\..\src\LP\lp_genfunc.c(195): warning C4081: expected 'identifier'; found 'string'
+     1>..\..\src\LP\lp_genfunc.c(342): warning C4081: expected 'identifier'; found 'string'
+         lp_free.c
+         lp_branch.c
+         lp.c
+         Generating Code...
+         Compiling...
+         cut_pool.c
+         cp_wrapper.c
+         cp_proccomm.c
+         cp_func.c
+         cut_gen.c
+         cg_wrapper.c
+         cg_proccomm.c
+         cg_func.c
+         timemeas.c
+         sym_qsort.c
+         proccomm.c
+         pack_cut.c
+         pack_array.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\basquiat\Documents\Toolboxes-indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\x64-v110-Debug\libSymphony.lib" /NOLOGO /MACHINE:X64 "x64-v110-Debug\pack_array.obj"
+         "x64-v110-Debug\pack_cut.obj"
+         "x64-v110-Debug\proccomm.obj"
+         "x64-v110-Debug\sym_qsort.obj"
+         "x64-v110-Debug\timemeas.obj"
+         "x64-v110-Debug\cg_func.obj"
+         "x64-v110-Debug\cg_proccomm.obj"
+         "x64-v110-Debug\cg_wrapper.obj"
+         "x64-v110-Debug\cut_gen.obj"
+         "x64-v110-Debug\cp_func.obj"
+         "x64-v110-Debug\cp_proccomm.obj"
+         "x64-v110-Debug\cp_wrapper.obj"
+         "x64-v110-Debug\cut_pool.obj"
+         "x64-v110-Debug\lp.obj"
+         "x64-v110-Debug\lp_branch.obj"
+         "x64-v110-Debug\lp_free.obj"
+         "x64-v110-Debug\lp_genfunc.obj"
+         "x64-v110-Debug\lp_heuristics.obj"
+         "x64-v110-Debug\lp_proccomm.obj"
+         "x64-v110-Debug\lp_rowfunc.obj"
+         "x64-v110-Debug\lp_solver.obj"
+         "x64-v110-Debug\lp_sp.obj"
+         "x64-v110-Debug\lp_varfunc.obj"
+         "x64-v110-Debug\lp_wrapper.obj"
+         "x64-v110-Debug\master.obj"
+         "x64-v110-Debug\master_func.obj"
+         "x64-v110-Debug\master_io.obj"
+         "x64-v110-Debug\master_prep.obj"
+         "x64-v110-Debug\master_prep_base.obj"
+         "x64-v110-Debug\master_prep_sr.obj"
+         "x64-v110-Debug\master_wrapper.obj"
+         "x64-v110-Debug\tm_func.obj"
+         "x64-v110-Debug\tm_proccomm.obj"
+         libSymphony.vcxproj -> C:\Users\basquiat\Documents\Toolboxes-indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\x64-v110-Debug\libSymphony.lib
+     1>Done Building Project "C:\Users\basquiat\Documents\Toolboxes-indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\libSymphony.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:26.18

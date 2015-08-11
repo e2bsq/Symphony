@@ -1,0 +1,21 @@
+﻿Build started 31/07/2015 15:22:26.
+     1>Project "C:\Users\basquiat\Documents\Toolboxes-indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\libOsiSym.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I..\..\include /I..\..\src\OsiSym /I..\..\..\BuildTools\headers /I..\..\..\CoinUtils\inc /I..\..\..\CoinUtils\src /I..\..\..\Osi\src /I..\..\..\Osi\src\Osi /I..\..\..\Clp\src\OsiClp /I..\..\..\Cgl\src /I..\..\..\Cgl\src\CglClique /I..\..\..\Cgl\src\CglFlowCover /I..\..\..\Cgl\src\CglGomory /I..\..\..\Cgl\src\CglKnapsackCover /I..\..\..\Cgl\src\CglLandP /I..\..\..\Cgl\src\CglLiftAndProject /I..\..\..\Cgl\src\CglMixedIntegerRounding /I..\..\..\Cgl\src\CglOddHole /I..\..\..\Cgl\src\CglProbing /I..\..\..\Cgl\src\CglRedSplit /I..\..\..\Cgl\src\CglSimpleRounding /I..\..\..\Cgl\src\CglTwomir /I..\..\..\Clp\src /Zi /nologo /W3 /WX- /Od /D SYMPHONY_BUILD /D WIN32 /D _DEBUG /D _LIB /D INTEL /D COMPILE_IN_CG /D COMPILE_IN_CP /D COMPILE_IN_LP /D COMPILE_IN_TM /D __OSI_CLP__ /D USE_CGL_CUTS /D _CRT_SECURE_NO_DEPRECATE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64-v110-Debug\\" /Fd"x64-v110-Debug\vc110.pdb" /Gd /TP /errorReport:prompt ..\..\src\OsiSym\OsiSymSolverInterface.cpp ..\..\src\OsiSym\SymWarmStart.cpp
+         SymWarmStart.cpp
+         OsiSymSolverInterface.cpp
+     1>..\..\src\OsiSym\OsiSymSolverInterface.cpp(433): warning C4065: switch statement contains 'default' but no 'case' labels
+     1>..\..\src\OsiSym\OsiSymSolverInterface.cpp(661): warning C4065: switch statement contains 'default' but no 'case' labels
+     1>..\..\src\OsiSym\OsiSymSolverInterface.cpp(1346): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\src\OsiSym\OsiSymSolverInterface.cpp(1360): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\src\OsiSym\OsiSymSolverInterface.cpp(1374): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\basquiat\Documents\Toolboxes-indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\x64-v110-Debug\libOsiSym.lib" /NOLOGO /MACHINE:X64 "x64-v110-Debug\OsiSymSolverInterface.obj"
+         "x64-v110-Debug\SymWarmStart.obj"
+         libOsiSym.vcxproj -> C:\Users\basquiat\Documents\Toolboxes-indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\x64-v110-Debug\libOsiSym.lib
+     1>Done Building Project "C:\Users\basquiat\Documents\Toolboxes-indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\libOsiSym.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.13

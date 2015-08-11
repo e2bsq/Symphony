@@ -1,0 +1,18 @@
+﻿Build started 31/07/2015 15:23:12.
+     1>Project "C:\Users\basquiat\Documents\Toolboxes-indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\unitTest.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\Osi\src\Osi /I..\..\..\Clp\src\OsiClp /I..\..\..\Clp\src /I..\..\..\CoinUtils\src /I..\..\..\BuildTools\headers /I..\..\include /I..\..\src\OsiSym /I..\..\..\Osi\src\OsiCommonTest /Zi /nologo /W3 /WX- /Od /D SYMPHONY_BUILD /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_DEPRECATE /D INTEL /D COMPILE_IN_CG /D COMPILE_IN_CP /D COMPILE_IN_LP /D COMPILE_IN_TM /D COIN_HAS_SYMPHONY /D "SAMPLEDIR=\"..\\..\\..\\Data\\Sample\\\\\"" /D "NETLIBDIR=\"..\\..\\..\\Data\\Netlib\\\\\"" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64-v110-Debug\\" /Fd"x64-v110-Debug\vc110.pdb" /Gd /TP /errorReport:prompt ..\..\test\OsiSymSolverInterfaceTest.cpp ..\..\test\unitTestSym.cpp
+         unitTestSym.cpp
+         OsiSymSolverInterfaceTest.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\basquiat\Documents\Toolboxes-indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\x64-v110-Debug\unitTest.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\basquiat\Documents\Toolboxes-indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\x64-v110-Debug\\" /LIBPATH:"C:\Users\basquiat\Documents\Toolboxes-indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\x64-v110-Debug\\" libOsiClp.lib libOsi.lib libClp.lib libCgl.lib libCoinUtils.lib libOsiClp.lib libOsiCommonTest.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\basquiat\Documents\Toolboxes-indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\x64-v110-Debug\unitTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\basquiat\Documents\Toolboxes-indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\x64-v110-Debug\unitTest.lib" /MACHINE:X64 "x64-v110-Debug\OsiSymSolverInterfaceTest.obj"
+         "x64-v110-Debug\unitTestSym.obj"
+         "C:\Users\basquiat\Documents\Toolboxes-indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\x64-v110-Debug\libOsiSym.lib"
+         "C:\Users\basquiat\Documents\Toolboxes-indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\x64-v110-Debug\libSymphony.lib"
+         unitTest.vcxproj -> C:\Users\basquiat\Documents\Toolboxes-indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\x64-v110-Debug\unitTest.exe
+     1>Done Building Project "C:\Users\basquiat\Documents\Toolboxes-indiens\SYMPHONY-5.6\SYMPHONY\MSVisualStudio\v10\unitTest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.90
